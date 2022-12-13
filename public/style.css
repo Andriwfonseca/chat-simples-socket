@@ -16,7 +16,7 @@ ul, li{
 
 #loginPage{
     background-color: #FFF;
-    display: none;
+    display: flex;
 }
 #loginNameInput {
     border: 2px solid #000;
@@ -30,7 +30,7 @@ ul, li{
 }
 
 #chatPage{
-    display: flex;
+    display: none;
 }
 
 .chatArea{
