@@ -48,6 +48,6 @@ io.on('connection', (socket) =>{
             message: txt
         };
 
-        socket.broadcast('show-msg', obj);
+        socket.broadcast.emit('show-msg', obj);
     });
 });
